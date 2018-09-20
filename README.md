@@ -12,8 +12,9 @@ current balance of her bank account is.
 When all sheep die, the shepherd can no longer acquire money and she goes
 bankrupt.
 
-The shepherd app consists of a client and a server. But both are unfinished.
-The server needs a few more rest endpoints, and the client does not yet call 
+The shepherd app consists of a [client](https://github.com/GennadiyUsatenko/testcase-webservices-shepherdapp-client) and a 
+[server](https://github.com/GennadiyUsatenko/testcase-webservices-shepherdapp-server). But both are unfinished.
+The server needs a few more rest endpoints, and the [client](https://github.com/GennadiyUsatenko/testcase-webservices-shepherdapp-client) does not yet call 
 the server to keep getting updates.
 
 Note: Think about possible exceptions that can be thrown especially by the
@@ -21,16 +22,16 @@ used frameworks. How do you deal with them?
 
 ## Client
 
-The client needs to call server endpoints to retrieve the amount of dead sheep,
-alive sheep and the current balance. The client also needs to be able to 
+The [client](https://github.com/GennadiyUsatenko/testcase-webservices-shepherdapp-client) needs to call [server](https://github.com/GennadiyUsatenko/testcase-webservices-shepherdapp-server) endpoints to retrieve the amount of dead sheep,
+alive sheep and the current balance. The [client](https://github.com/GennadiyUsatenko/testcase-webservices-shepherdapp-client) also needs to be able to 
 place an order so that the shepherd will acquire more sheep.
  
 ## Server
 
-The server needs an endpoint in order for the client to order more sheep for
+The [server](https://github.com/GennadiyUsatenko/testcase-webservices-shepherdapp-server) needs an endpoint in order for the [client](https://github.com/GennadiyUsatenko/testcase-webservices-shepherdapp-client) to order more sheep for
 the shepherd.
-The server also needs rest endpoints to be able to request for the current
+The [server](https://github.com/GennadiyUsatenko/testcase-webservices-shepherdapp-server) also needs rest endpoints to be able to request for the current
 balance of the bank account and how many sheep are still alive.
 
-The server, once started, might kill sheep every 10 seconds. The 10 seconds and the chance a sheep
+The [server](https://github.com/GennadiyUsatenko/testcase-webservices-shepherdapp-server), once started, might kill sheep every 10 seconds. The 10 seconds and the chance a sheep
 dies are adjustable in the property files.
