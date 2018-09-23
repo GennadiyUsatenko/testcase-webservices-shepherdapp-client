@@ -47,6 +47,11 @@
 			<systemPath>${project.basedir}/src/main/resources/gui-interface-1.0.0.jar</systemPath>
         </dependency>
 
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-jersey</artifactId>
+		</dependency>
+
 	</dependencies>
 
 	<build>
